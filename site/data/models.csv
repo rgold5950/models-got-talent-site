@@ -1,0 +1,11 @@
+model_id,dataset,model_family,model_type,best_val_accuracy,best_test_accuracy,val_loss,test_loss,parameter_count,training_time_hours
+bert-base-uncased,imdb,text_classification,transformer,0.923,0.915,0.234,0.256,110000000,24.5
+efficientnet-b0,cifar10,image_classification,cnn,0.923,0.911,0.189,0.201,5280000,8.3
+distilbert-base-uncased,sst2,text_classification,transformer,0.912,0.898,0.312,0.345,67000000,12.8
+roberta-base,mrpc,text_classification,transformer,0.887,0.876,0.423,0.445,125000000,18.9
+t5-small,squad,question_answering,transformer,0.876,0.854,0.678,0.712,60000000,36.4
+gpt2-medium,wikitext-103,language_modeling,transformer,0.845,0.832,1.234,1.456,355000000,48.2
+xlnet-base-cased,cola,text_classification,transformer,0.834,0.821,0.512,0.534,117000000,42.1
+vit-base-patch16-224,imagenet,image_classification,transformer,0.831,0.812,0.456,0.489,86500000,96.7
+resnet50,imagenet,image_classification,cnn,0.782,0.765,0.987,1.023,25500000,72.1
+albert-base-v2,rte,text_classification,transformer,0.689,0.671,0.634,0.658,12000000,15.6
